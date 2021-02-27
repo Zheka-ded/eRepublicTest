@@ -134,6 +134,7 @@ input[name="user-birthday-year"]{
     border-radius: 30px;
     border: none;
     box-shadow: 8px 14px 11px rgba(128, 128, 128, 0.685);
+    cursor: pointer;
 }
 
 .left-shadow__wrap, .right-shadow__wrap{
