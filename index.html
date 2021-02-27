@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="container-row">
+        <div class="form__wrap">
+            <h1>Заявка на экскурсионный полет на Марс</h1>
+            <form action="#" class="form">
+                <!-- for shadow -->
+                <div class="left-shadow__wrap">
+                    <div class="paper-shadow__left"></div>
+                </div>
+                <div class="right-shadow__wrap">
+                    <div class="paper-shadow__right"></div>
+                </div>
+                <div class="all-inputs__wrap">
+                    <!-- form -->
+                    <div class="input__wrap">
+                        <label>Фамилия</label>
+                        <div class="input__helper-column">
+                            <input type="text" name="user-surname" required>
+                            <div class="input__checkbox">
+                                    <input type="checkbox" name="user-surname-change" id="user-surname-change">
+                                <label for="user-surname-change">
+                                    ранее менялась
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="input__wrap">
+                        <label>Имя</label>
+                        <input type="text" name="user-name" required>
+                    </div>
+    
+                    <div class="input__wrap">
+                        <label>Отчество</label>
+                        <input type="text" name="user-patronymic" required>
+                    </div>
+    
+                    <div class="input__wrap">
+                        <label>Фамилия латиницей</label>
+                        <input type="text" name="user-surname-latin" required>
+                    </div>
+    
+                    <div class="input__wrap">
+                        <label>Имя латиницей</label>
+                        <input type="text" name="user-name-latin" required>
+                    </div>
+    
+                    <div class="input__wrap">
+                        <label>Дата рождения</label>
+                        <div class="input__helper-row">
+                            <input type="number" name="user-birthday-day" required>
+                            <input type="number" name="user-birthday-mounth" required>
+                            <input type="number" name="user-birthday-year" required>
+                        </div>
+                    </div>
+    
+                    <div class="input__wrap">
+                        <label>Семейное положение</label>
+                        <select class="select__marital-status">
+                            <option selected disabled></option>
+                            <option value="married">В браке</option>
+                            <option value="not-married">Не в браке</option>
+                        </select>
+                    </div>
+    
+                    <div class="input__wrap">
+                        <label>Образование</label>
+                        <select class="select__education">
+                            <option selected disabled></option>
+                            <option value="education">Есть</option>
+                            <option value="not-education">Нет</option>
+                        </select>
+                    </div>
+    
+                    <h2>Контактная информация</h2>
+                    
+                    <div class="input__wrap">
+                        <label>Моб. телефон</label>
+                        <div class="input__helper-column">
+                            <input type="text" name="user-phone" placeholder="+7" required>
+                        </div>
+                    </div>
+
+                    <div class="input__wrap">
+                        <label>Электронная почта</label>
+                        <div class="input__helper-column">
+                            <input type="email" name="user-email" required>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="dispatch">
+                    <div class="input__checkbox">
+                            <input type="checkbox" name="user-agree" id="user-agree">
+                        <label for="user-agree">
+                            Ставя эту галочку, я подтверждаю, что поставил её в трезвом уме и твердой памяти.
+                        </label>
+                    </div>
+                    <div class="dispatch__btn-wrap">
+                        <button>Полететь на Марс</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="solar-eclipse__wrap">
+            <h3>
+                Почему стабильно солнечное затмение?
+            </h3>
+            <p class="solar-eclipse__subtitle">
+                Эффективный диаметр жизненно вызывает случайный эффективный 
+                радиус, а время ожидания ответа составило бы 80 миллиардов лет.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
