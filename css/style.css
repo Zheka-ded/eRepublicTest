@@ -65,10 +65,6 @@ label{
     margin-top: 60px;
 }
 
-.input__wrap:nth-child(6) input{
-    box-shadow: 3px 4px 6px -1px rgba(59, 57, 57, 0.3);
-}
-
 .input__wrap label{
     width: 250px;
 }
@@ -134,6 +130,7 @@ input[name="user-birthday-year"]{
     border-radius: 30px;
     border: none;
     box-shadow: 8px 14px 11px rgba(128, 128, 128, 0.685);
+    -webkit-appearance: none;
     cursor: pointer;
 }
 
