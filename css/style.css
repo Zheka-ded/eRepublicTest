@@ -129,6 +129,7 @@ input[name="user-birthday-year"]{
     padding: 15px 25px;
     border-radius: 30px;
     border: none;
+    background: #eae9ef;
     box-shadow: 8px 14px 11px rgba(128, 128, 128, 0.685);
     -webkit-appearance: none;
     cursor: pointer;
