@@ -44,6 +44,11 @@ h2{
     padding: 30px;
 }
 
+input, button{
+    
+    -webkit-appearance: auto;
+}
+
 label{
     font-weight: 500;
 }
